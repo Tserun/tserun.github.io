@@ -1,7 +1,7 @@
 
-/* html{
+body{
     overflow-x: hidden;
-} */
+}
 
 body {
     margin: 0;
@@ -28,24 +28,14 @@ header .container .row .header{
 	list-style: none;
 	display: inline-block;
 }
-.justify-content-center{
-	    justify-content: right!important;
-	    margin-top: -40px;
-}
 .site-title{
 	display: inline-block	;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-family: Poppins,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-weight: 600;
-    line-height: 1.2;
-}
+
 
 hr{
 	margin: 2rem 0;
-    color: #adb5bd;
+    color: #137ae0;
     background-color: currentColor;
     border: 0;
     opacity: .25;
@@ -53,16 +43,50 @@ hr{
 i{
 	    color: #434a54;
 }
-
-.sec1{
-	margin-top: 125px;
+.div1-1{
+    width: fit-content;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .div1 {
+        margin-left: -87px;
+}
+    }
+@media only screen and (max-width: 585px) {
+    .center{
+    margin-left: 60px;
+}
+    }
+@media only screen and (max-width: 585px) {
+    .about-section{
+        width:420px;
+    }
+      }
+@media only screen and (max-width: 590px) {
+ .div1{
+     width:420px;
+ }
+  }
+@media only screen and (max-width: 578px) {
+.timeline-card{
+    width:420px;
+}
+  }
+@media only screen and (max-width: 520px) {
+    .timeline-card{
+        width:350px;
+    }
+      }
+@media only screen and (max-width: 580px) {
+    .motamota{
+     margin-left: 250px;
+}
+  }
 .sec2{
 	margin-top: 28px;
 }
-.container1{
-    width: 1060px;
-}
+
 
 .link{
 border-bottom: 2px dotted #434a54;
@@ -76,58 +100,105 @@ a{
 }
 .progres{
     width: 427px;
- }
-
-
- .input{
-    width: 240px;
-    margin: 3px;
     display: flex;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #434a54;
-    background-color: #f8f9fa;
-    background-clip: padding-box;
-    border: 2px solid #dee2e6;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: 0.25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
  }
 
-
- .input1{
-    height: 94px;
-    width: 488px;
-    padding: 0.375rem 0.75rem;
+input{
+    color: #434a54;
+    background-color: #f8f9fa;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #434a54;
-    background-color: #f8f9fa;
-    background-clip: padding-box;
-    border: 2px solid #dee2e6;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: 0.25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
- 
 }
 
- .sec3{
-    margin-top: 183px;
- }
  .sec4  {
-     display: flex;
- }
+
+    margin-top: 150px;
+}
+
  .col-div{
      display:flex;
      margin-top: 120px;
  }
- .class{
-    margin-top: -120px;
- }
+
+ .timeline-card-primary:before {
+    border-color: #4A89DC !important;
+}
+.timeline-card:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 12px;
+    height: 12px;
+    top: 20px;
+    left: -41px;
+    border: 2px solid;
+    z-index: 2;
+}
+
+.timeline-card-primary:after {
+    background-color: #4A89DC !important;
+}
+.timeline-card:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: currentColor;
+    width: 29px;
+    height: 2px;
+    top: 25px;
+    left: -29px;
+    z-index: 1;
+}
+
+.timeline-card-success:before {
+    border-color: #37BC9B !important;
+}
+.timeline-card:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 12px;
+    height: 12px;
+    top: 20px;
+    left: -41px;
+    border: 2px solid;
+    z-index: 2;
+}
+
+.timeline-card-success:after {
+    background-color: #37BC9B !important;
+}
+.timeline-card:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: currentColor;
+    width: 29px;
+    height: 2px;
+    top: 25px;
+    left: -29px;
+    z-index: 1;
+}
+.work-experience-section{
+    border-left: 2px solid #e6e9ed;
+    padding-left: 34px;
+}
+.education-section{
+    border-left: 2px solid #e6e9ed;
+    padding-left: 34px;
+}
+.div1{
+    display: flex;
+}
+
+#motamota {
+    display: flex;
+}
+.row12{
+    display: flex;
+}
